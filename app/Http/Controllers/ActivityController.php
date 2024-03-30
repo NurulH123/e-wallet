@@ -34,7 +34,6 @@ class ActivityController extends Controller
                             ->groupBy('date_transaction');
         }
 
-
         return response()->json([
             'status' => true,
             'message' => 'Semua Data Transaksi',
